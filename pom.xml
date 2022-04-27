@@ -78,11 +78,11 @@
 		</dependency>
   </dependencies>
    <distributionManagement>
-        <snapshotrepository>
+        <repository>
           <id>nexus</id>
           <name>sample-app</name>
           <url>http://3.235.51.107:8081/repository/sample-app/</url>
-        </snapshotrepository>
+        </repository>
       <!--  <snapshotRepository>
           <id>nexus</id>
           <name>KC Tech Snapshot Nexus Repository </name>
