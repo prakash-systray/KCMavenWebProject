@@ -80,7 +80,7 @@
    <distributionManagement>
         <repository>
           <id>nexus</id>
-          <name>KC Tech Releases Nexus Repository</name>
+          <name>sample-app</name>
           <url>http://44.192.11.242:8081/repository/sample-app/</url>
         </repository>
       <!--  <snapshotRepository>
