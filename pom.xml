@@ -80,7 +80,7 @@
    <distributionManagement>
         <repository>
           <id>nexus</id>
-          <name>sample-app</name>
+          <name>sample-java-project</name>
           <url>http://3.235.51.107:8081/repository/sample-java-project/</url>
         </repository>
       <!--  <snapshotRepository>
