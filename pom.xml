@@ -89,6 +89,14 @@
            <url>http://52.91.88.226:8081/repository/kctech-snapshot/</url>
         </snapshotRepository> -->
    </distributionManagement>
+ 
+	<pluginRepositories>
+	    <pluginRepository>    
+		<id>maven1</id>
+		<name>Maven.org</name>
+		<url>http://repo1.maven.org/maven2</url>
+	    </pluginRepository>
+	</pluginRepositories>
 	
  <!-- <profiles>
         <profile>
@@ -121,8 +129,9 @@
           <source>1.7</source>
           <target>1.7</target>
         </configuration>
-      </plugin>     
+      </plugin> 
     </plugins>
   </build>
+  
 
 </project>
