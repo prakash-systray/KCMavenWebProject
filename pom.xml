@@ -78,16 +78,11 @@
 		</dependency>
   </dependencies>
    <distributionManagement>
-        <repository>
+       <!-- <repository>
           <id>nexus</id>
           <name>sample-java-project</name>
           <url>http://3.235.51.107:8081/repository/sample-java-project/</url>
-        </repository>
-      <!--  <snapshotRepository>
-          <id>nexus</id>
-          <name>KC Tech Snapshot Nexus Repository </name>
-           <url>http://52.91.88.226:8081/repository/kctech-snapshot/</url>
-        </snapshotRepository> -->
+        </repository> -->
    </distributionManagement>
  
 	<pluginRepositories>
