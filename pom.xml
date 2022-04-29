@@ -83,10 +83,7 @@
           <name>sample-java-project</name>
           <url>http://3.235.51.107:8081/repository/sample-java-project/</url>
         </repository> -->
-	   <plugin>
-             <groupId>org.sonatype.plugins</groupId>
-             <artifactId>maven-web-project</artifactId>
-	   </plugin>
+	   
    </distributionManagement>
 		
  
