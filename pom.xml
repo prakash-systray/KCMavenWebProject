@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion> 
   <groupId>com.kctechnologies</groupId>
-  <artifactId>com.kctechnologies</artifactId>
+  <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
   <version>1.1</version>
   <name>maven-web-project</name>
@@ -84,6 +84,10 @@
           <url>http://3.235.51.107:8081/repository/sample-java-project/</url>
         </repository> -->
    </distributionManagement>
+	<plugin>
+   <groupId>org.sonatype.plugins</groupId>
+   <artifactId>maven-web-project</artifactId>
+	</plugin>	
  
 	<pluginRepositories>
 	    <pluginRepository>    
